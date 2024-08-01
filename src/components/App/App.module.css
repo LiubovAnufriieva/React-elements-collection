@@ -1,0 +1,12 @@
+#root {
+    margin: 0 auto;
+  }
+ 
+  .container {
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    margin-left: 50px;
+  }
+ 
