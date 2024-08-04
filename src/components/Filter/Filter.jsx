@@ -5,6 +5,7 @@ export default function Filter({ value, onFilter }) {
     <div>
       <p className={css.label}>Search by name</p>
       <input
+      className={css.input}
         type="text"
         value={value}
         onChange={(e) => onFilter(e.target.value)}

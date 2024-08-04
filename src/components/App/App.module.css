@@ -5,8 +5,25 @@
   .container {
     padding: 16px;
     display: flex;
+    
     flex-direction: column;
     gap: 24px;
     margin-left: 50px;
+  }
+
+  input {
+    border: 2px solid coral;
+    border-radius: 8px;
+  }
+
+  button {
+    color: cornflowerblue;
+    background-color: coral;
+    border: 2px solid transparent;
+    border-radius: 8px;
+    font-size: 18px;
+    font-weight: 700;
+    
+    padding: 4px;
   }
  
